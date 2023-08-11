@@ -15,11 +15,11 @@ const IncomeExpenses = () => {
     <div className="inc-exp-container">
       <div>
         <h4>Income</h4>
-        <p className="money plus">+${incomeAmount}</p>
+        <p className="money plus">+₹{incomeAmount}</p>
       </div>
       <div>
         <h4>Expense</h4>
-        <p className="money minus">-${expenseAmount}</p>
+        <p className="money minus">-₹{expenseAmount}</p>
       </div>
     </div>
   );
